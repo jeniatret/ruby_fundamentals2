@@ -10,3 +10,8 @@ end
 
 display_list(students)
 
+puts "------------------------"
+
+#add 43 as the amount of students for cohort 4
+students[:cohort4] = 43
+display_list(students)
