@@ -15,3 +15,11 @@ puts "------------------------"
 #add 43 as the amount of students for cohort 4
 students[:cohort4] = 43
 display_list(students)
+
+
+puts "--------------------------"
+#output all of the cohort names with the keys method
+puts students.keys
+
+puts"---------------------------"
+#increase the cohort by 5% and display the resutls
