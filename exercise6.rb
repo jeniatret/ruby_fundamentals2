@@ -24,7 +24,7 @@ puts "-------------------------"
 
 # check if the list inlcludes bananas. if it does not include bananas puts "You neeed to pick up bananas"
 grocery_list.select {|item| item == "bananas"}
-if grocery_list = [] 
+if grocery_list == [] 
 	puts "You need to pick up bananas"
 else 
 	puts "You don't need to pick up bananas today"
@@ -32,4 +32,7 @@ end
 
 puts "----------------------------"
 
-#
+#display the second item on the list 
+puts grocery_list[1]
+
+
