@@ -15,3 +15,8 @@ puts "-----------------------"
 grocery_list << "rice"
 store(grocery_list)
 
+puts "------------------------"
+
+#counting the items
+puts grocery_list.count 
+
