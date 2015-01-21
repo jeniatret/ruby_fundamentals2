@@ -35,4 +35,9 @@ puts "----------------------------"
 #display the second item on the list 
 puts grocery_list[1]
 
+puts "-----------------------------"
+
+#alphabetically sort the list 
+puts grocery_list.sort 
+
 
