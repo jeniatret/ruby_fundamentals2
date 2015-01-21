@@ -23,3 +23,4 @@ puts students.keys
 
 puts"---------------------------"
 #increase the cohort by 5% and display the resutls
+students.each {|cohort, number| puts (number * 1.05).to_i}
