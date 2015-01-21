@@ -6,7 +6,7 @@ grocery_list.each {|item| puts "* #{item}"}
 end
 
 #original line 
-grocery_list = ["carrots", "apples", "chips", "bread"]
+grocery_list = ["carrots", "apples", "chips", "salmon"]
 store(grocery_list)
 
 puts "-----------------------"	
@@ -39,5 +39,12 @@ puts "-----------------------------"
 
 #alphabetically sort the list 
 puts grocery_list.sort 
+
+
+puts "------------------------------"
+#delete the salmon from your list and then display it 
+grocery_list.delete("salmon")
+puts grocery_list
+
 
 
