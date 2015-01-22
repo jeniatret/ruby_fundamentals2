@@ -33,4 +33,6 @@ display_list(students)
 
 puts "----------------------------"
 #calculate the total amount of students in all the cohorts by susing each 
-
+total = 0
+students.each {|cohort, number| total += number}
+puts "the total is #{total}"
