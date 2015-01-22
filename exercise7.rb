@@ -22,5 +22,15 @@ puts "--------------------------"
 puts students.keys
 
 puts"---------------------------"
-#increase the cohort by 5% and display the resutls
+#increase the cohort by 5% and display the 
 students.each {|cohort, number| puts (number * 1.05).to_i}
+
+puts "---------------------------"
+#delete the second cohort and redisplay 
+students.delete(:cohort2)
+display_list(students)
+
+
+puts "----------------------------"
+#calculate the total amount of students in all the cohorts by susing each 
+
